@@ -1,4 +1,11 @@
 =====
+0.1.1 on 2016/11/17
+=====
+
+- Fix readme.rst lowercased name that prevented proper installation
+
+
+=====
 0.1.0
 =====
 

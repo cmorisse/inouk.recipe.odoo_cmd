@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 name = 'inouk.recipe.odoo_cmd'
-version = '0.1.0'
+version = '0.1.1'
 
 
 long_description = (
     '\nDetailed Documentation\n'
     '######################\n'
     + '\n' +
-    open('readme.rst').read()
+    open('README.rst').read()
     + '\n' +
     'Contributors\n'
     '############\n'
