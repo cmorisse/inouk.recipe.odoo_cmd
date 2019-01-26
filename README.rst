@@ -5,6 +5,8 @@ inouk.recipe.odoo_cmd
 inouk.recipe.odoo_cmd is an anybox.recipe.odoo console script that
 adds the odoo.py command to a buildout Odoo server.
 
+inouk.recipe.odoo_cmd supports up to Odoo 12.
+
 Installation
 ============
 
@@ -22,7 +24,7 @@ In the openerp section your buildout.cfg, add inouk.recipe.odoo_cmd egg:
     # ask the odoo recipe to create a script from inouk.recipe.odoo_cmd
     openerp_scripts = odoo_cmd=odoo.py  
 
-Then buildout your server with *bin/buildout*.
+Then buildout your server.
 
 Usage
 =====
